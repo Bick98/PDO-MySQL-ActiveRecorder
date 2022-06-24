@@ -1,0 +1,14 @@
+{
+    "name": "root/pdo",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.0",
+        "monolog/monolog": "^2.7",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    }
+}
